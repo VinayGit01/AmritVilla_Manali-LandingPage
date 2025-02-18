@@ -1,0 +1,137 @@
+footer h5 {
+    font-weight: bold;
+}
+
+footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer a {
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ff5a5f;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+.about-us-section {
+    padding: 50px 0;
+}
+
+.about-us-title {
+    font-weight: bold;
+    color: #000;
+}
+
+.about-us-text {
+    color: #6c757d;
+}
+
+.read-more-btn {
+    background-color: #e83e8c;
+    color: #fff;
+    border: none;
+}
+
+.read-more-btn:hover {
+    background-color: #d63384;
+    color: #fff;
+}
+
+.card-img-top {
+    height: 320px;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    /* Stylish cursive font */
+    font-size: 1.8rem;
+    /* Adjust font size */
+    color: #ff5a5f;
+    /* Stylish color (example: coral pink) */
+    text-decoration: none;
+    /* Remove underline */
+    transition: color 0.3s ease;
+    /* Smooth hover effect */
+}
+
+.navbar-brand:hover {
+    color: #ff2e63;
+    /* Darker color on hover */
+}
+
+.service-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.counter {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ff5a5f;
+}
+
+.counter-text {
+    font-size: 1.2rem;
+}
+/* Make the carousel height responsive */
+#carouselExampleIndicators {
+    /* height: 100vh; Full viewport height */
+    overflow: hidden;
+    position: relative;
+}
+
+/* Ensure images fill the carousel height with responsive scaling */
+#carouselExampleIndicators img {
+    height: 100%;
+    width: 100%; /* Ensures full width */
+    object-fit: cover; /* Scale image proportionally to cover the container */
+    object-position: center; /* Center the image */
+}
+
+/* Styling the carousel caption */
+.carousel-caption {
+    font-family: 'Arial', sans-serif; /* Change to any font you'd like */
+}
+
+.carousel-caption-title {
+    font-size: 2.5rem; /* Adjust font size for the title */
+    color:white; /* Set text color */
+    font-weight: bold; /* Set font weight */
+}
+
+.carousel-caption-text {
+    font-size: 1.2rem; /* Adjust font size for description text */
+    color: whitesmoke; /* Set text color */
+    font-weight: normal; /* Set font weight */
+}
+
+/* Ensures good visibility of text over images */
+.carousel-item img {
+    filter: brightness(70%); /* Darkens the image for better text contrast */
+}
+#menus {
+    position: sticky-top;
+    top: 0;
+}
